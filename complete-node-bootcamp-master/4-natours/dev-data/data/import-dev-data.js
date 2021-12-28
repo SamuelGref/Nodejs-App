@@ -51,18 +51,3 @@ if (process.argv[2] === '--import') {
   deleteData();
 }
 console.log(process.argv);
-
-// Build query
-// Filtering
-// const qureyObj = { ...req.query };
-// const excludedFields = ['page,sort,limit,fields'];
-// excludedFields.forEach((el) => delete qureyObj[el]);
-
-// Advanced filtering
-// let queryStr = JSON.stringfiy(qureyObj);
-// queryStr = queryStr.replace(/\b(get|gt|lte|lt)\b/g, (match) => `$${match}`);
-// console.log(JSON.parse(queryStr));
-
-// const query = Tour.find(qureyObj);
-
-//excute query
